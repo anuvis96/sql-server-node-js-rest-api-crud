@@ -21,4 +21,27 @@ Content-Type: application/json
 ###
 
 
-GET {{api}}/1002
+GET {{api}}/1006
+
+
+###
+
+DELETE {{api}}/1004
+
+
+###
+
+GET {{api}}/count
+
+
+###
+
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "Name": "Acer Demon",
+    "Description": "For gaming",
+    "Quantity": 12
+
+}
